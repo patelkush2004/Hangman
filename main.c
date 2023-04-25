@@ -117,6 +117,7 @@ int main(void) {
             word[i] = get_word(word_num)[i];
         }
         char asteriks[50] = {};
+        printf("%c\n", get_word(word_num)[0]);
         for (int i = 0; i < strlen(get_word(word_num)); i++) {
             if (word[i] == 32) {
                 asteriks[i] = ' ';
